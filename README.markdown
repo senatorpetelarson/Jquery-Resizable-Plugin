@@ -11,6 +11,7 @@ Use a jQuery selector to apply the behavior to the objects you want to make full
 $('gallery-photo').resizable();
 
 There are a few options you can pass as an object to the resizable function:
+
 * centeredY: {true|false} automatically centers the image vertically (default is true)
 * centeredX: {true|false} automatically centers the image horizontally. (default is true)* addWidthHeightAttributes: {true|false} adds html attributes for width & height to img tags (default is true. ignored for objects that are not img tags)* maxWidth: set a maximum width for the object (useful if you don't want images to overscale)
 * maxHeight: set a maximum height for the object (useful if you don't want images to overscale)
